@@ -11,7 +11,7 @@
 
 #define WIFI_SSID "LevinsonNet"
 #define WIFI_PASSWORD "DHARMAPROJECT"
-#define GAME_HOST "192.168.1.21"
+#define GAME_HOST "192.168.1.15"
 #define GAME_PORT 9999
 
 byte _buff[6] ;

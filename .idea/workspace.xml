@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28989d93-6542-4dd0-97ec-335181a60f8d" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/run/objects/test.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/objects/tree1.mtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/objects/tree1.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/textures/sample.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/extremely/marble/server/Server.kt" afterDir="false" />
+    <list default="true" id="28989d93-6542-4dd0-97ec-335181a60f8d" name="Changes" comment="Added NodeMCU">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/extremely/marble/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodemcu/adxl345/adxl345.ino" beforeDir="false" afterPath="$PROJECT_DIR$/nodemcu/adxl345/adxl345.ino" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/extremely/marble/game/logic/GameLogic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/extremely/marble/game/logic/GameLogic.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690623338104</updated>
       <workItem from="1690623339108" duration="2280000" />
-      <workItem from="1690810176586" duration="10888000" />
+      <workItem from="1690810176586" duration="15074000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -103,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690623494973</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added NodeMCU">
+      <option name="closed" value="true" />
+      <created>1690887076607</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690887076607</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +124,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Added NodeMCU" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added NodeMCU" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

@@ -47,9 +47,9 @@ class GameLogic(private val engine: Engine) : Logic {
 
 //        val model = loader.loadToVao(vertices, textureCoordinates, indices)
         val objLoader = ObjLoader()
-        val model = objLoader.loadObjModel("C:\\programming\\learning-lwjgl\\assets\\board.obj", loader)
+        val model = objLoader.loadObjModel("C:\\programming\\labyrinth-marble\\assets\\board3.obj", loader)
 //        val texture = Texture(loader.loadTexture("C:\\programming\\test_lwjgl\\run\\textures\\sample.png"))
-        val texture = Texture(loader.loadTexture("C:\\programming\\learning-lwjgl\\assets\\board.png"))
+        val texture = Texture(loader.loadTexture("C:\\programming\\labyrinth-marble\\assets\\board.png"))
         val texturedModel = TexturedModel(model, texture)
         entity = Entity(texturedModel, Vector3f(0f, 0f, -12f), Vector3f(0f, 0f, 0f), 1f);
 
